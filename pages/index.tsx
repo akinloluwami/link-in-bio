@@ -56,6 +56,10 @@ export const getStaticProps = () => {
             url: "https://github.com/akinloluwami",
           },
           {
+            title: "Source code",
+            url: "https://github.com/akinloluwami/link-in-bio",
+          },
+          {
             title: "Twitter",
             url: "https://twitter.com/xing0x",
           },
