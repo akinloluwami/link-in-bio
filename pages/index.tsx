@@ -21,6 +21,17 @@ const Page = ({
     <Box minH={"100vh"} overflowX={"hidden"}>
       <Head>
         <title>{name}</title>
+        <meta name="description" content={bio} />
+        <meta property="og:title" content={name} />
+        <meta property="og:description" content={bio} />
+        <meta property="og:image" content={image} />
+        <meta property="og:image" content={image} />
+        <meta property="og:url" content="https://link-in-bio.com" />
+        <meta property="og:site_name" content={name} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={name} />
+        <meta name="twitter:description" content={bio} />
+        <meta name="twitter:image" content={image} />
       </Head>
       <Header name={name} bio={bio} image={image} />
       <Socials socials={socials} />
