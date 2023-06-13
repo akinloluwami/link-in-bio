@@ -18,7 +18,7 @@ const Page = ({
 }) => {
   const { links, name, bio, image, socials } = profile;
   return (
-    <Box textColor={"#000"} minH={"100vh"} overflowX={"hidden"}>
+    <Box minH={"100vh"} overflowX={"hidden"}>
       <Head>
         <title>{name}</title>
       </Head>
