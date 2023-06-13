@@ -22,6 +22,8 @@ const Links = ({ links }: { links: LinkProps[] }) => {
           }}
           isExternal
           border={"2px solid"}
+          data-aos={"fade-up"}
+          data-aos-delay={i * 100}
         >
           {link?.title}
         </Link>
