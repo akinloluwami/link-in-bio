@@ -19,11 +19,10 @@ const Links = ({ links }: { links: LinkProps[] }) => {
           _hover={{
             boxShadow: "10px 15px",
             transform: "scale(1.02)",
+            bgColor: "brand.100",
           }}
           isExternal
           border={"2px solid"}
-          data-aos={"fade-up"}
-          data-aos-delay={i * 100}
         >
           {link?.title}
         </Link>
