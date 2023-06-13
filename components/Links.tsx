@@ -12,7 +12,7 @@ const Links = ({ links }: { links: LinkProps[] }) => {
           w={"90%"}
           maxW={"400px"}
           textAlign={"center"}
-          fontWeight={"semibold"}
+          fontWeight={"bold"}
           py={3}
           boxShadow={"5px 7px"}
           fontSize={"20px"}
